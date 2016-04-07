@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoliceDeptModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PoliceDeptModelStoreContainer">
+    <EntitySet Name="Person" EntityType="PoliceDeptModel.Store.Person" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Person_ID" />
+    </Key>
+    <Property Name="Person_ID" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SocialNum" Type="varchar" MaxLength="9" />
+    <Property Name="LastName" Type="varchar" MaxLength="30" />
+    <Property Name="FirstName" Type="varchar" MaxLength="30" />
+    <Property Name="MiddleNames" Type="varchar" MaxLength="30" />
+    <Property Name="Photo" Type="varchar" MaxLength="500" />
+    <Property Name="Gender" Type="varchar" MaxLength="6" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="POB" Type="varchar" MaxLength="30" />
+    <Property Name="Eth_ID" Type="smallint" />
+    <Property Name="Build" Type="varchar" MaxLength="30" />
+    <Property Name="Height" Type="varchar" MaxLength="30" />
+    <Property Name="Weight" Type="varchar" MaxLength="30" />
+    <Property Name="Hair_ID" Type="smallint" />
+    <Property Name="Eye_ID" Type="smallint" />
+    <Property Name="Officer" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Criminal" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Victim" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="License_ID" Type="smallint" />
+  </EntityType>
+</Schema>

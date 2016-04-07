@@ -1,0 +1,9 @@
+c:\users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.dll
+c:\users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.pdb
+c:\users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Debug\PoliceDepartment.csprojResolveAssemblyReference.cache
+c:\users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Debug\PoliceDepartment.dll
+c:\users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Debug\PoliceDepartment.pdb
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\Framework.dll
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\Framework.pdb
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\EntityFramework.dll
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\EntityFramework.xml

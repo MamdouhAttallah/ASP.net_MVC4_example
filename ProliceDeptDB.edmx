@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PoliceDeptModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="PoliceDeptModelStoreContainer">
+          <EntitySet Name="Person" EntityType="PoliceDeptModel.Store.Person" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="Person_ID" />
+          </Key>
+          <Property Name="Person_ID" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SocialNum" Type="varchar" MaxLength="9" />
+          <Property Name="LastName" Type="varchar" MaxLength="30" />
+          <Property Name="FirstName" Type="varchar" MaxLength="30" />
+          <Property Name="MiddleNames" Type="varchar" MaxLength="30" />
+          <Property Name="Photo" Type="varchar" MaxLength="500" />
+          <Property Name="Gender" Type="varchar" MaxLength="6" />
+          <Property Name="DOB" Type="date" />
+          <Property Name="POB" Type="varchar" MaxLength="30" />
+          <Property Name="Eth_ID" Type="smallint" />
+          <Property Name="Build" Type="varchar" MaxLength="30" />
+          <Property Name="Height" Type="varchar" MaxLength="30" />
+          <Property Name="Weight" Type="varchar" MaxLength="30" />
+          <Property Name="Hair_ID" Type="smallint" />
+          <Property Name="Eye_ID" Type="smallint" />
+          <Property Name="Officer" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="Criminal" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="Victim" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="License_ID" Type="smallint" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PoliceDeptModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="PoliceDeptEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="People" EntityType="PoliceDeptModel.Person" />
+        </EntityContainer>
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="Person_ID" />
+          </Key>
+          <Property Name="Person_ID" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SocialNum" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="FirstName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="MiddleNames" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Photo" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Gender" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+          <Property Name="DOB" Type="DateTime" Precision="0" />
+          <Property Name="POB" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Eth_ID" Type="Int16" />
+          <Property Name="Build" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Height" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Weight" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Hair_ID" Type="Int16" />
+          <Property Name="Eye_ID" Type="Int16" />
+          <Property Name="Officer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="Criminal" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="Victim" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="License_ID" Type="Int16" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PoliceDeptModelStoreContainer" CdmEntityContainer="PoliceDeptEntities">
+          <EntitySetMapping Name="People">
+            <EntityTypeMapping TypeName="PoliceDeptModel.Person">
+              <MappingFragment StoreEntitySet="Person">
+                <ScalarProperty Name="Person_ID" ColumnName="Person_ID" />
+                <ScalarProperty Name="SocialNum" ColumnName="SocialNum" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleNames" ColumnName="MiddleNames" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="POB" ColumnName="POB" />
+                <ScalarProperty Name="Eth_ID" ColumnName="Eth_ID" />
+                <ScalarProperty Name="Build" ColumnName="Build" />
+                <ScalarProperty Name="Height" ColumnName="Height" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Hair_ID" ColumnName="Hair_ID" />
+                <ScalarProperty Name="Eye_ID" ColumnName="Eye_ID" />
+                <ScalarProperty Name="Officer" ColumnName="Officer" />
+                <ScalarProperty Name="Criminal" ColumnName="Criminal" />
+                <ScalarProperty Name="Victim" ColumnName="Victim" />
+                <ScalarProperty Name="License_ID" ColumnName="License_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

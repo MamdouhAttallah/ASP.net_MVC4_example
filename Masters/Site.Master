@@ -1,0 +1,149 @@
+﻿
+    <%@ master language="C#" autoeventwireup="true" codebehind="Site.master.cs" inherits="PoliceDepartment.Masters.Site" %>
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    <!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla-->
+    <!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla-->
+    <!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla-->
+    <!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla--><!--Mamdouh Attalla-->
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title></title>
+        <link href="../css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="animations.css">
+        <script type="text/javascript" src="../JS/new.js"></script>
+        <script src="../JS/Rotator.js" language="javascript" type="text/javascript"></script>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+                <body style="background: rgba(45, 45, 45, .7);background-image:url('../images/police_Building.jpg');background-repeat:no-repeat;background-size:100%;"> 
+                <div class="header"style="background-color:white;width: 944px;margin-left: 182px;border-radius: 10px;">
+                <h2 style="float: left;clear: both;font-size: 20px; position: absolute;color:black;">Your Regional<br /> Police Service</h2>
+                <a href=""><img src="../images/policebanner.jpg" /style="width: 731px;height: 120px;margin-left: 219px; z-index:-22;margin-bottom: 6px;
+                   margin-right:1124px;clear: both;margin-left: 142px;border-radius: 10px;"></a>
+        
+          
+            </div>
+            <div>
+            <div class="NavigationMenu" style="float: left;margin-left: 180px;width: 70%;padding: 5px;border-radius:10px;">
+
+                <div style="margin-left:49px;">
+                <div class="navbar"><asp:hyperlink navigateurl="~/Home.aspx" id="lnkHome" text="Home" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/ExploreCases.aspx" id="lnkExploreCases" text="Explore Cases" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/Report.aspx" id="lnkReport" text="Report" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/Login.aspx" id="lnkLogin" text="Login" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/Register.aspx" id="lnkRegister" text="Register" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/Login.aspx" id="LogOut" text="Log Out" runat="server" style="margin-left: 478px;" /></div>
+                    </div>
+            </div>
+                </div>
+  
+    
+        <div class="rightPln" id="placeholderlayer1" style="margin-left: 187px;" runat="server">
+                            <address style="background:rgba(228, 218, 218, 0.5);font-size: x-large;color:red;font-family:"Segoe UI Black";">
+                    Report<span style="font-size: large;color:blue;">Wanted and dangerous</address>
+            <asp:Image runat="server"></asp:Image>
+              <a href=""><asp:Image runat="server" src="../images/Man_1.jpg" ToolTip="Mike The Butcher, 6 feet, 3 inches tall" style="background-repeat: no-repeat;
+                                                                                 width: 96px;
+                                                                                margin-right: 974px;
+                                                                                margin-top: -1px;"></asp:Image></a>
+               <a href=""><img src="../images/Man_5.jpg" / style="background-repeat: no-repeat;
+                                                                                 width: 96px;float:right;
+                                                                                 margin-top: -62px;"></a>
+                       <a href=""><img src="../images/Man_4.jpg" / style="background-repeat: no-repeat;
+                                                                                 width: 96px;float:left;
+                                                                                 margin-top: 20px;"></a>
+                       <a href=""><img src="../images/Man_11.jpg" / style="background-repeat: no-repeat;
+                                                                                 width: 96px;float:right;
+                                                                                 margin-top: 20px;"></a>
+                       <a href=""><img src="../images/Man_55.jpg" / style="background-repeat: no-repeat;
+                                                                                 width: 96px;float:left;
+                                                                                 margin-top: 40px;"></a>
+            </div>
+
+            <div class="rightPln" id="placeholderlayer2" style="margin-left: 187px;" runat="server">
+                <a href="">
+                    <asp:image runat="server" src="../images/Man_1.jpg" tooltip="Mike The Butcher, 6 feet, 3 inches tall" style="background-repeat: no-repeat; width: 96px; margin-right: 974px; margin-top: 76px;"/>
+                </a>
+            </div>
+            <div class="rightPln" id="placeholderlayer3" style="margin-left: 187px;" runat="server">
+                <a href="">
+                    <asp:image runat="server" src="../images/Man_1.jpg" tooltip="Mike The Butcher, 6 feet, 3 inches tall" style="background-repeat: no-repeat; width: 96px; margin-right: 974px; margin-top: -1px;"/>
+                </a>
+                <address style="background:rgba(228, 218, 218, 0.5);font-size: x-large;font-family:"Segoe UI Black";">
+                    <span style="font-size: large;"> Detective</span><span style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XH123</span></address>
+            <fieldset style="background-color:red;"><span style="color:blue;">Recent New Release</span><br /> <a>City workers Strike hits downtown <href=""></href></a><br/>Stolen Vehicle Found near 123th & 23rd<br />Police officer injured during exchange of fire<br />Increased influx in drugs to metropoitan area</fieldset>
+            
+            </div>
+
+            <div class="bodybox" style="width: 449px; margin-top: 8px; background-color:white;background-color: khaki;">
+                <asp:contentplaceholder id="ContentPlaceHolderBody" runat="server">
+        
+            </asp:contentplaceholder>
+            </div>
+        <div class="rightPln" id="rightplaceholder1" runat="server">Report a crime <span style="font-family:Aldhabi; color:red; font-size: x-large; font-stretch:narrower;">1-800-End-Crime</span>
+                      
+            <a href="">
+
+              <img src="../images/bundy.jpg" / style="background-repeat: no-repeat; width: 96px;margin-right: 974px; margin-top: 76px;"/></a>                                                                  
+        </div>
+
+        <div class="rightPln" id="rightplaceholder2" runat="server">Place Holder 2 
+            <table>
+                <tr>
+                    <td>
+            <button type="button" id="P1" style="background: none repeat scroll 0% 0% #465657;color: #FFF;font-family: 'Conv_GothamHTF-Bold',Arial Black,Arial Bold,Gadget,Sans-Serif;line-height: normal;
+    font-size: 15px;text-shadow: 2px 2px 15px #535353; padding: 7px 10px; text-align: center; width: 192px; transition: all 0.5s ease 0s; box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);" onclick="location.href = 'NewCase.aspx';" runat="server" Text="Login"  >Manage Profile</button>
+               </td>
+                </tr><!--CriminalsInfo.aspx-->
+                <tr>
+                  <td>
+            <button type="button" class="btn2" id="Button1" style="background: none repeat scroll 0% 0% #465657;color: #FFF;font-family: 'Conv_GothamHTF-Bold',Arial Black,Arial Bold,Gadget,Sans-Serif;line-height: normal;
+    font-size: 15px;text-shadow: 2px 2px 15px #535353; padding: 7px 10px; text-align: center; width: 192px; transition: all 0.5s ease 0s; box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);" onclick="location.href = 'CreateCase.aspx';" runat="server" Text="Login"  >Create A Case</button>
+               </td>
+                </tr>
+                 <tr>
+                  <td>
+            <button type="button" id="Button2" style="background: none repeat scroll 0% 0% #465657;color: #FFF;font-family: 'Conv_GothamHTF-Bold',Arial Black,Arial Bold,Gadget,Sans-Serif;line-height: normal;
+    font-size: 15px;text-shadow: 2px 2px 15px #535353; padding: 7px 10px; text-align: center; width: 192px; transition: all 0.5s ease 0s; box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);" runat="server" Text="Login" onclick="location.href = 'Email.aspx';" >Email & Notifications</button>
+               </td>
+                </tr>
+                                 <tr>
+                  <td>
+            <button type="button" id="Button3" style="background: none repeat scroll 0% 0% #465657;color: #FFF;font-family: 'Conv_GothamHTF-Bold',Arial Black,Arial Bold,Gadget,Sans-Serif;line-height: normal;
+    font-size: 15px;text-shadow: 2px 2px 15px #535353; padding: 7px 10px; text-align: center; width: 192px; transition: all 0.5s ease 0s; box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);" runat="server" Text="Login" onclick="location.href='CreateMap.aspx';" >Crime Map</button>
+               </td>
+                </tr>
+                  <tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+                                 <tr>
+                  <td>
+            <button type="button" id="Button4" style="background: none repeat scroll 0% 0% #E02D75;color: #FFF;font-family: 'Conv_GothamHTF-Bold',Arial Black,Arial Bold,Gadget,Sans-Serif;line-height: normal;
+    font-size: 15px;text-shadow: 2px 2px 15px #535353; padding: 7px 10px; text-align: center; width: 192px; transition: all 0.5s ease 0s; box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);" runat="server" Text="Login" onclick="location.href = 'CriminalsInfo.aspx';" >Emergency Response</button>
+               </td>
+                </tr>
+                </table>      
+        
+        </div>
+
+               <div>
+            <div class="NavigationMenu" name="Footer" style="float: left;margin-left: 180px;margin-bottom:10px;width: 70%;padding: 5px;">
+
+                <div style="margin-left:50px;">
+                <div class="navbar"><asp:hyperlink navigateurl="~/contact.aspx" id="Hyperlink1" text="ContactUs" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/visit.aspx" id="Hyperlink2" text="Visit us" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/terms.aspx" id="Hyperlink3" text="Terms and conditions" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/fb.aspx" id="Hyperlink4" text="FaceBook" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/tweet.aspx" id="Hyperlink5" text="Privacy Poicy" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/tweet.aspx" id="Hyperlink6" text="Site Master" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/tweet.aspx" id="Hyperlink7" text="City Hall" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/tweet.aspx" id="Hyperlink8" text="Reports" runat="server" /></div>
+                <div class="navbar"><asp:hyperlink navigateurl="~/tweet.aspx" id="Hyperlink9" text="Site Map" runat="server" /></div>
+
+                    </div>
+            </div>
+                </div>
+       
+      	<script type="text/javascript" src="new.js"></script>
+    </body>
+    </html>

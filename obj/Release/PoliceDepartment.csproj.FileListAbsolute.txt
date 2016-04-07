@@ -1,0 +1,19 @@
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.dll
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.pdb
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\Framework.dll
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\Framework.pdb
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.csprojResolveAssemblyReference.cache
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.dll
+C:\Users\mamdouh\documents\visual studio 2012\Projects\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.pdb
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\EntityFramework.dll
+C:\Users\mamdouh\Documents\Visual Studio 2012\Projects\PoliceDepartment\PoliceDepartment\bin\EntityFramework.xml
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.dll.config
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.dll
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\PoliceDepartment.pdb
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\EntityFramework.dll
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\Framework.dll
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\Framework.pdb
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\bin\EntityFramework.xml
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.csprojResolveAssemblyReference.cache
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.dll
+F:\From_Lexar\PoliceDepartment\PoliceDepartment\obj\Release\PoliceDepartment.pdb

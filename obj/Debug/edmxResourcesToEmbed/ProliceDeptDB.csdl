@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoliceDeptModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PoliceDeptEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="People" EntityType="PoliceDeptModel.Person" />
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Person_ID" />
+    </Key>
+    <Property Name="Person_ID" Type="Int16" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="SocialNum" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="FirstName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="MiddleNames" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Photo" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="POB" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Eth_ID" Type="Int16" />
+    <Property Name="Build" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Height" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Weight" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Hair_ID" Type="Int16" />
+    <Property Name="Eye_ID" Type="Int16" />
+    <Property Name="Officer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Criminal" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Victim" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="License_ID" Type="Int16" />
+  </EntityType>
+</Schema>

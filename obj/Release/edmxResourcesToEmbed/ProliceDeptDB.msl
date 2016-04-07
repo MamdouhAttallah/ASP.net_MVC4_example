@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PoliceDeptModelStoreContainer" CdmEntityContainer="PoliceDeptEntities">
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="PoliceDeptModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="Person_ID" ColumnName="Person_ID" />
+          <ScalarProperty Name="SocialNum" ColumnName="SocialNum" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleNames" ColumnName="MiddleNames" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="POB" ColumnName="POB" />
+          <ScalarProperty Name="Eth_ID" ColumnName="Eth_ID" />
+          <ScalarProperty Name="Build" ColumnName="Build" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Hair_ID" ColumnName="Hair_ID" />
+          <ScalarProperty Name="Eye_ID" ColumnName="Eye_ID" />
+          <ScalarProperty Name="Officer" ColumnName="Officer" />
+          <ScalarProperty Name="Criminal" ColumnName="Criminal" />
+          <ScalarProperty Name="Victim" ColumnName="Victim" />
+          <ScalarProperty Name="License_ID" ColumnName="License_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
